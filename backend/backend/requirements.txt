@@ -1,0 +1,54 @@
+# InvoiceIN Backend Dependencies
+# Django and Python dependencies
+Django>=5.0,<6.0
+djangorestframework>=3.14.0
+djangorestframework-simplejwt>=5.3.0
+django-cors-headers>=4.3.0
+django-filter>=23.5
+Pillow>=10.1.0
+python-dotenv>=1.0.0
+
+# Database
+psycopg2-binary>=2.9.9  # PostgreSQL adapter
+#mysqlclient>=2.2.0  # MySQL adapter (optional)
+
+# PDF Generation
+WeasyPrint>=60.0
+reportlab>=4.0.0
+qrcode>=7.4.2
+
+# External APIs
+razorpay>=1.4.0
+requests>=2.31.0
+httpx>=0.25.0
+
+# Task Queue (optional)
+celery>=5.3.0
+redis>=5.0.0
+django-celery-beat>=2.5.0
+
+# File Storage (optional)
+boto3>=1.33.0  # AWS S3
+django-storages>=1.14.2
+
+# Caching
+django-redis>=5.4.0
+
+# Monitoring and Logging
+sentry-sdk>=2.0.0
+python-json-logger>=2.0.7
+
+# Development
+black>=23.12.0
+flake8>=7.0.0
+isort>=5.13.0
+pytest>=7.4.0
+pytest-django>=4.7.0
+factory-boy>=3.3.0
+
+# Code Quality
+coverage>=7.3.0
+bandit>=1.7.6
+
+# Production Server
+gunicorn>=21.2.0

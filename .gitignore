@@ -1,0 +1,114 @@
+# Archives
+
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# =========================
+
+# FRONTEND (React/Vite)
+
+# =========================
+
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+frontend/.vite/
+frontend/coverage/
+
+# Logs
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# =========================
+
+# BACKEND (Django)
+
+# =========================
+
+backend/backend/venv/
+backend/backend/.env
+backend/backend/.env.*
+backend/backend/db.sqlite3
+backend/backend/media/
+backend/backend/staticfiles/
+
+# Python cache
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+venv/
+.venv/
+env/
+ENV/
+
+# Django
+
+*.log
+local_settings.py
+
+# Pytest
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+
+.mypy_cache/
+
+# Ruff
+
+.ruff_cache/
+
+# PyCharm
+
+.idea/
+
+# VS Code
+
+.vscode/
+
+# macOS
+
+.DS_Store
+
+# Windows
+
+Thumbs.db
+desktop.ini
+
+# Linux
+
+*~
+
+# Build artifacts
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environment files
+
+.env
+.env.local
+.env.production
+.env.development
+
+# Misc
+
+*.swp
+*.swo
+*.tmp
+*.bak
